@@ -24,7 +24,7 @@ function startProcessing() {
         document.getElementById('userInput').value = '';
         progressContainer.style.display = 'none';
         button.classList.remove('processing');
-        button.textContent = 'Display Text';
+        button.textContent = 'تخمين الطقس';
         progressBar.style.width = '0%';
     }, 5000);
 }
